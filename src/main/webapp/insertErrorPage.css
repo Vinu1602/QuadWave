@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    background-color: pink;
+    /* font-size: medium; */
+}
+.container{
+    background-color: pink;
+    box-shadow: 10px 20px 30px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 14%;
+    margin-left: 35%;
+    border: 7px red;
+    border-style: groove;
+}
+
+.inside{
+    margin-top: 50px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    border: 3px groove red;
+    box-shadow: 3px 6px 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    color: rgb(139, 18, 199);
+}
